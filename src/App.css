@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+#quote-box {
+  background-color: antiquewhite;
+  height: 325px;
+  width: 660px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#text {
+  position: relative;
+  top:25%;
+  margin: 0 25px;
+  font-family: "Trirong", serif;
+}
+
+#author{
+  position: relative;
+  top: 25%;
+  float:right;
+  margin-right:25px;
+  font-style: italic;
+}
+
+#new-quote {
+  position: relative;
+  top: 50%;
+  float: right;
+  margin:0 50px;
+}
+
+#tweet-quote{
+  position: relative;
+  top:50%;
+  float: left;
+  margin: 0 50px;
+}
+
+.button-style {
+  background-color: rgb(63, 30, 30);
+  border:none;
+  border-radius: 2px;
+  padding:10px 20px;
+  color: azure;
+} 
+
+.button-style:hover {
+  background-color: rgb(26, 13, 13);
+  cursor: pointer;
+}
